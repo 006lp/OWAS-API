@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/avatar.png" alt="OWAS-API Avatar" width="180" />
+
 # OWAS-API
 
 **A clean, high-performance RESTful API server for the OPPO Watch App Store (`com.heytap.wearable.market`), built with Go 1.27.4 & Gin.**
@@ -63,6 +65,8 @@ flowchart LR
 
 ```text
 OWAS-API/
+├── assets/
+│   └── avatar.png                   # Project avatar
 ├── cmd/server/
 │   └── main.go                      # Entrypoint: config loading, DI wiring, graceful shutdown
 ├── internal/

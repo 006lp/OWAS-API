@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/avatar.png" alt="OWAS-API 项目头像" width="180" />
+
 # OWAS-API
 
 **基于 Go 1.27.4 与 Gin 构建的高性能、低耦合 OPPO 应用商店手表版（`com.heytap.wearable.market`）RESTful API 服务。**
@@ -63,6 +65,8 @@ flowchart LR
 
 ```text
 OWAS-API/
+├── assets/
+│   └── avatar.png                   # 项目头像
 ├── cmd/server/
 │   └── main.go                      # 薄入口：配置加载、依赖注入装配与优雅停机
 ├── internal/
